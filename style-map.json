@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": 1779011895708,
+  "generatedAt": 1779013057310,
   "entries": {
     "Index@app/index.tsx:61": {
       "element": {
@@ -746,6 +746,26 @@
         }
       ]
     },
+    "RootLayout@app/_layout.tsx:27": {
+      "element": {
+        "file": "app/_layout.tsx",
+        "line": 27
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "app/_layout.tsx",
+          "properties": {
+            "flex": {
+              "line": 27,
+              "col": 43,
+              "endCol": 44,
+              "raw": "1"
+            }
+          }
+        }
+      ]
+    },
     "HomeScreen@app/(tabs)/index.tsx:20": {
       "element": {
         "file": "app/(tabs)/index.tsx",
@@ -914,326 +934,6 @@
               "line": 59,
               "col": 25,
               "endCol": 27,
-              "raw": "20"
-            }
-          }
-        }
-      ]
-    },
-    "RootLayout@app/_layout.tsx:27": {
-      "element": {
-        "file": "app/_layout.tsx",
-        "line": 27
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "app/_layout.tsx",
-          "properties": {
-            "flex": {
-              "line": 27,
-              "col": 43,
-              "endCol": 44,
-              "raw": "1"
-            }
-          }
-        }
-      ]
-    },
-    "WatchlistScreen@app/(tabs)/watchlist.tsx:21": {
-      "element": {
-        "file": "app/(tabs)/watchlist.tsx",
-        "line": 21
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "app/(tabs)/watchlist.tsx",
-          "properties": {
-            "flex": {
-              "line": 21,
-              "col": 25,
-              "endCol": 26,
-              "raw": "1"
-            }
-          }
-        }
-      ]
-    },
-    "WatchlistScreen@app/(tabs)/watchlist.tsx:30": {
-      "element": {
-        "file": "app/(tabs)/watchlist.tsx",
-        "line": 30
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "app/(tabs)/watchlist.tsx",
-          "properties": {
-            "paddingHorizontal": {
-              "line": 30,
-              "col": 42,
-              "endCol": 44,
-              "raw": "20"
-            },
-            "marginBottom": {
-              "line": 30,
-              "col": 60,
-              "endCol": 62,
-              "raw": "24"
-            }
-          }
-        }
-      ]
-    },
-    "WatchlistScreen@app/(tabs)/watchlist.tsx:31": {
-      "element": {
-        "file": "app/(tabs)/watchlist.tsx",
-        "line": 31
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "app/(tabs)/watchlist.tsx",
-          "properties": {
-            "fontSize": {
-              "line": 34,
-              "col": 24,
-              "endCol": 26,
-              "raw": "32"
-            },
-            "letterSpacing": {
-              "line": 36,
-              "col": 29,
-              "endCol": 32,
-              "raw": "0.5"
-            }
-          }
-        }
-      ]
-    },
-    "WatchlistScreen@app/(tabs)/watchlist.tsx:41": {
-      "element": {
-        "file": "app/(tabs)/watchlist.tsx",
-        "line": 41
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "app/(tabs)/watchlist.tsx",
-          "properties": {
-            "height": {
-              "line": 43,
-              "col": 22,
-              "endCol": 23,
-              "raw": "1"
-            },
-            "opacity": {
-              "line": 45,
-              "col": 23,
-              "endCol": 26,
-              "raw": "0.3"
-            },
-            "marginTop": {
-              "line": 46,
-              "col": 25,
-              "endCol": 26,
-              "raw": "8"
-            },
-            "width": {
-              "line": 47,
-              "col": 21,
-              "endCol": 23,
-              "raw": "60"
-            }
-          }
-        }
-      ]
-    },
-    "WatchlistScreen@app/(tabs)/watchlist.tsx:54": {
-      "element": {
-        "file": "app/(tabs)/watchlist.tsx",
-        "line": 54
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "app/(tabs)/watchlist.tsx",
-          "properties": {
-            "flexDirection": {
-              "line": 56,
-              "col": 29,
-              "endCol": 34,
-              "raw": "\"row\""
-            },
-            "flexWrap": {
-              "line": 57,
-              "col": 24,
-              "endCol": 30,
-              "raw": "\"wrap\""
-            },
-            "gap": {
-              "line": 58,
-              "col": 19,
-              "endCol": 21,
-              "raw": "12"
-            },
-            "paddingHorizontal": {
-              "line": 59,
-              "col": 33,
-              "endCol": 35,
-              "raw": "20"
-            }
-          }
-        }
-      ]
-    },
-    "WatchlistScreen@app/(tabs)/watchlist.tsx:73": {
-      "element": {
-        "file": "app/(tabs)/watchlist.tsx",
-        "line": 73
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "app/(tabs)/watchlist.tsx",
-          "properties": {
-            "alignItems": {
-              "line": 75,
-              "col": 26,
-              "endCol": 34,
-              "raw": "\"center\""
-            },
-            "justifyContent": {
-              "line": 76,
-              "col": 30,
-              "endCol": 38,
-              "raw": "\"center\""
-            },
-            "paddingVertical": {
-              "line": 77,
-              "col": 31,
-              "endCol": 33,
-              "raw": "80"
-            },
-            "paddingHorizontal": {
-              "line": 78,
-              "col": 33,
-              "endCol": 35,
-              "raw": "40"
-            }
-          }
-        }
-      ]
-    },
-    "WatchlistScreen@app/(tabs)/watchlist.tsx:81": {
-      "element": {
-        "file": "app/(tabs)/watchlist.tsx",
-        "line": 81
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "app/(tabs)/watchlist.tsx",
-          "properties": {
-            "width": {
-              "line": 83,
-              "col": 23,
-              "endCol": 25,
-              "raw": "72"
-            },
-            "height": {
-              "line": 84,
-              "col": 24,
-              "endCol": 26,
-              "raw": "72"
-            },
-            "borderRadius": {
-              "line": 85,
-              "col": 30,
-              "endCol": 32,
-              "raw": "36"
-            },
-            "alignItems": {
-              "line": 87,
-              "col": 28,
-              "endCol": 36,
-              "raw": "\"center\""
-            },
-            "justifyContent": {
-              "line": 88,
-              "col": 32,
-              "endCol": 40,
-              "raw": "\"center\""
-            },
-            "marginBottom": {
-              "line": 89,
-              "col": 30,
-              "endCol": 32,
-              "raw": "20"
-            }
-          }
-        }
-      ]
-    },
-    "WatchlistScreen@app/(tabs)/watchlist.tsx:94": {
-      "element": {
-        "file": "app/(tabs)/watchlist.tsx",
-        "line": 94
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "app/(tabs)/watchlist.tsx",
-          "properties": {
-            "fontSize": {
-              "line": 97,
-              "col": 26,
-              "endCol": 28,
-              "raw": "20"
-            },
-            "textAlign": {
-              "line": 99,
-              "col": 27,
-              "endCol": 35,
-              "raw": "\"center\""
-            },
-            "marginBottom": {
-              "line": 100,
-              "col": 30,
-              "endCol": 31,
-              "raw": "8"
-            }
-          }
-        }
-      ]
-    },
-    "WatchlistScreen@app/(tabs)/watchlist.tsx:105": {
-      "element": {
-        "file": "app/(tabs)/watchlist.tsx",
-        "line": 105
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "app/(tabs)/watchlist.tsx",
-          "properties": {
-            "fontSize": {
-              "line": 108,
-              "col": 26,
-              "endCol": 28,
-              "raw": "14"
-            },
-            "textAlign": {
-              "line": 110,
-              "col": 27,
-              "endCol": 35,
-              "raw": "\"center\""
-            },
-            "lineHeight": {
-              "line": 111,
-              "col": 28,
-              "endCol": 30,
               "raw": "20"
             }
           }
@@ -1794,419 +1494,301 @@
         }
       ]
     },
-    "HeroCarousel@components/hero-carousel.tsx:68": {
+    "WatchlistScreen@app/(tabs)/watchlist.tsx:21": {
       "element": {
-        "file": "components/hero-carousel.tsx",
-        "line": 68
+        "file": "app/(tabs)/watchlist.tsx",
+        "line": 21
       },
       "styles": [
         {
           "origin": "inline",
-          "file": "components/hero-carousel.tsx",
-          "properties": {
-            "flexGrow": {
-              "line": 77,
-              "col": 27,
-              "endCol": 28,
-              "raw": "0"
-            }
-          }
-        }
-      ]
-    },
-    "HeroCarousel@components/hero-carousel.tsx:85": {
-      "element": {
-        "file": "components/hero-carousel.tsx",
-        "line": 85
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "components/hero-carousel.tsx",
-          "properties": {
-            "width": {
-              "line": 87,
-              "col": 30,
-              "endCol": 36,
-              "raw": "\"100%\""
-            },
-            "height": {
-              "line": 87,
-              "col": 46,
-              "endCol": 52,
-              "raw": "\"100%\""
-            }
-          }
-        }
-      ]
-    },
-    "HeroCarousel@components/hero-carousel.tsx:92": {
-      "element": {
-        "file": "components/hero-carousel.tsx",
-        "line": 92
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "components/hero-carousel.tsx",
-          "properties": {
-            "position": {
-              "line": 94,
-              "col": 26,
-              "endCol": 36,
-              "raw": "\"absolute\""
-            },
-            "bottom": {
-              "line": 95,
-              "col": 24,
-              "endCol": 25,
-              "raw": "0"
-            },
-            "left": {
-              "line": 96,
-              "col": 22,
-              "endCol": 23,
-              "raw": "0"
-            },
-            "right": {
-              "line": 97,
-              "col": 23,
-              "endCol": 24,
-              "raw": "0"
-            },
-            "backgroundColor": {
-              "line": 99,
-              "col": 33,
-              "endCol": 46,
-              "raw": "\"transparent\""
-            }
-          }
-        }
-      ]
-    },
-    "HeroCarousel@components/hero-carousel.tsx:102": {
-      "element": {
-        "file": "components/hero-carousel.tsx",
-        "line": 102
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "components/hero-carousel.tsx",
+          "file": "app/(tabs)/watchlist.tsx",
           "properties": {
             "flex": {
-              "line": 104,
-              "col": 24,
-              "endCol": 25,
-              "raw": "1"
-            },
-            "backgroundColor": {
-              "line": 105,
-              "col": 35,
-              "endCol": 53,
-              "raw": "\"rgba(0,0,0,0.55)\""
-            },
-            "justifyContent": {
-              "line": 106,
-              "col": 34,
-              "endCol": 44,
-              "raw": "\"flex-end\""
-            },
-            "padding": {
-              "line": 107,
-              "col": 27,
-              "endCol": 29,
-              "raw": "24"
-            },
-            "paddingBottom": {
-              "line": 108,
-              "col": 33,
-              "endCol": 35,
-              "raw": "32"
-            }
-          }
-        }
-      ]
-    },
-    "HeroCarousel@components/hero-carousel.tsx:111": {
-      "element": {
-        "file": "components/hero-carousel.tsx",
-        "line": 111
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "components/hero-carousel.tsx",
-          "properties": {
-            "fontSize": {
-              "line": 114,
-              "col": 30,
-              "endCol": 32,
-              "raw": "24"
-            },
-            "marginBottom": {
-              "line": 116,
-              "col": 34,
-              "endCol": 35,
-              "raw": "6"
-            },
-            "textShadowColor": {
-              "line": 117,
-              "col": 37,
-              "endCol": 54,
-              "raw": "\"rgba(0,0,0,0.5)\""
-            },
-            "textShadowRadius": {
-              "line": 119,
-              "col": 38,
-              "endCol": 39,
-              "raw": "4"
-            }
-          }
-        }
-      ]
-    },
-    "HeroCarousel@components/hero-carousel.tsx:125": {
-      "element": {
-        "file": "components/hero-carousel.tsx",
-        "line": 125
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "components/hero-carousel.tsx",
-          "properties": {
-            "fontSize": {
-              "line": 128,
-              "col": 30,
-              "endCol": 32,
-              "raw": "16"
-            },
-            "letterSpacing": {
-              "line": 130,
-              "col": 35,
-              "endCol": 38,
-              "raw": "0.5"
-            }
-          }
-        }
-      ]
-    },
-    "HeroCarousel@components/hero-carousel.tsx:139": {
-      "element": {
-        "file": "components/hero-carousel.tsx",
-        "line": 139
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "components/hero-carousel.tsx",
-          "properties": {
-            "position": {
-              "line": 141,
-              "col": 26,
-              "endCol": 36,
-              "raw": "\"absolute\""
-            },
-            "top": {
-              "line": 142,
-              "col": 21,
-              "endCol": 22,
-              "raw": "0"
-            },
-            "left": {
-              "line": 143,
-              "col": 22,
-              "endCol": 23,
-              "raw": "0"
-            },
-            "right": {
-              "line": 144,
-              "col": 23,
-              "endCol": 24,
-              "raw": "0"
-            },
-            "backgroundColor": {
-              "line": 146,
-              "col": 33,
-              "endCol": 50,
-              "raw": "\"rgba(0,0,0,0.3)\""
-            }
-          }
-        }
-      ]
-    },
-    "HeroCarousel@components/hero-carousel.tsx:154": {
-      "element": {
-        "file": "components/hero-carousel.tsx",
-        "line": 154
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "components/hero-carousel.tsx",
-          "properties": {
-            "position": {
-              "line": 156,
-              "col": 20,
-              "endCol": 30,
-              "raw": "\"absolute\""
-            },
-            "bottom": {
-              "line": 157,
-              "col": 18,
-              "endCol": 20,
-              "raw": "14"
-            },
-            "alignSelf": {
-              "line": 158,
-              "col": 21,
-              "endCol": 29,
-              "raw": "\"center\""
-            },
-            "flexDirection": {
-              "line": 159,
+              "line": 21,
               "col": 25,
-              "endCol": 30,
-              "raw": "\"row\""
-            },
-            "gap": {
-              "line": 160,
-              "col": 15,
-              "endCol": 16,
-              "raw": "6"
+              "endCol": 26,
+              "raw": "1"
             }
           }
         }
       ]
     },
-    "HeroCarousel@components/hero-carousel.tsx:164": {
+    "WatchlistScreen@app/(tabs)/watchlist.tsx:30": {
       "element": {
-        "file": "components/hero-carousel.tsx",
-        "line": 164
+        "file": "app/(tabs)/watchlist.tsx",
+        "line": 30
       },
       "styles": [
         {
           "origin": "inline",
-          "file": "components/hero-carousel.tsx",
+          "file": "app/(tabs)/watchlist.tsx",
           "properties": {
-            "height": {
-              "line": 168,
-              "col": 22,
-              "endCol": 23,
-              "raw": "6"
-            },
-            "borderRadius": {
-              "line": 169,
-              "col": 28,
-              "endCol": 29,
-              "raw": "3"
-            },
-            "borderCurve": {
-              "line": 172,
-              "col": 27,
-              "endCol": 39,
-              "raw": "\"continuous\""
-            }
-          }
-        }
-      ]
-    },
-    "InquiryButton@components/inquiry-button.tsx:12": {
-      "element": {
-        "file": "components/inquiry-button.tsx",
-        "line": 12
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "components/inquiry-button.tsx",
-          "properties": {
-            "position": {
-              "line": 14,
-              "col": 18,
-              "endCol": 28,
-              "raw": "\"absolute\""
-            },
-            "bottom": {
-              "line": 15,
-              "col": 16,
-              "endCol": 17,
-              "raw": "0"
-            },
-            "left": {
-              "line": 16,
-              "col": 14,
-              "endCol": 15,
-              "raw": "0"
-            },
-            "right": {
-              "line": 17,
-              "col": 15,
-              "endCol": 16,
-              "raw": "0"
-            },
             "paddingHorizontal": {
-              "line": 18,
-              "col": 27,
-              "endCol": 29,
+              "line": 30,
+              "col": 42,
+              "endCol": 44,
               "raw": "20"
             },
-            "paddingTop": {
-              "line": 19,
-              "col": 20,
-              "endCol": 22,
-              "raw": "12"
-            },
-            "borderTopWidth": {
-              "line": 22,
+            "marginBottom": {
+              "line": 30,
+              "col": 60,
+              "endCol": 62,
+              "raw": "24"
+            }
+          }
+        }
+      ]
+    },
+    "WatchlistScreen@app/(tabs)/watchlist.tsx:31": {
+      "element": {
+        "file": "app/(tabs)/watchlist.tsx",
+        "line": 31
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "app/(tabs)/watchlist.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 34,
               "col": 24,
-              "endCol": 27,
+              "endCol": 26,
+              "raw": "32"
+            },
+            "letterSpacing": {
+              "line": 36,
+              "col": 29,
+              "endCol": 32,
               "raw": "0.5"
             }
           }
         }
       ]
     },
-    "InquiryButton@components/inquiry-button.tsx:26": {
+    "WatchlistScreen@app/(tabs)/watchlist.tsx:41": {
       "element": {
-        "file": "components/inquiry-button.tsx",
-        "line": 26
-      },
-      "styles": [
-        {
-          "origin": "dynamic",
-          "resolvable": false
-        }
-      ]
-    },
-    "InquiryButton@components/inquiry-button.tsx:39": {
-      "element": {
-        "file": "components/inquiry-button.tsx",
-        "line": 39
+        "file": "app/(tabs)/watchlist.tsx",
+        "line": 41
       },
       "styles": [
         {
           "origin": "inline",
-          "file": "components/inquiry-button.tsx",
+          "file": "app/(tabs)/watchlist.tsx",
           "properties": {
-            "fontSize": {
-              "line": 42,
+            "height": {
+              "line": 43,
               "col": 22,
-              "endCol": 24,
-              "raw": "15"
+              "endCol": 23,
+              "raw": "1"
             },
-            "letterSpacing": {
-              "line": 44,
-              "col": 27,
-              "endCol": 30,
-              "raw": "0.5"
-            },
-            "textAlign": {
+            "opacity": {
               "line": 45,
               "col": 23,
-              "endCol": 31,
+              "endCol": 26,
+              "raw": "0.3"
+            },
+            "marginTop": {
+              "line": 46,
+              "col": 25,
+              "endCol": 26,
+              "raw": "8"
+            },
+            "width": {
+              "line": 47,
+              "col": 21,
+              "endCol": 23,
+              "raw": "60"
+            }
+          }
+        }
+      ]
+    },
+    "WatchlistScreen@app/(tabs)/watchlist.tsx:54": {
+      "element": {
+        "file": "app/(tabs)/watchlist.tsx",
+        "line": 54
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "app/(tabs)/watchlist.tsx",
+          "properties": {
+            "flexDirection": {
+              "line": 56,
+              "col": 29,
+              "endCol": 34,
+              "raw": "\"row\""
+            },
+            "flexWrap": {
+              "line": 57,
+              "col": 24,
+              "endCol": 30,
+              "raw": "\"wrap\""
+            },
+            "gap": {
+              "line": 58,
+              "col": 19,
+              "endCol": 21,
+              "raw": "12"
+            },
+            "paddingHorizontal": {
+              "line": 59,
+              "col": 33,
+              "endCol": 35,
+              "raw": "20"
+            }
+          }
+        }
+      ]
+    },
+    "WatchlistScreen@app/(tabs)/watchlist.tsx:73": {
+      "element": {
+        "file": "app/(tabs)/watchlist.tsx",
+        "line": 73
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "app/(tabs)/watchlist.tsx",
+          "properties": {
+            "alignItems": {
+              "line": 75,
+              "col": 26,
+              "endCol": 34,
               "raw": "\"center\""
+            },
+            "justifyContent": {
+              "line": 76,
+              "col": 30,
+              "endCol": 38,
+              "raw": "\"center\""
+            },
+            "paddingVertical": {
+              "line": 77,
+              "col": 31,
+              "endCol": 33,
+              "raw": "80"
+            },
+            "paddingHorizontal": {
+              "line": 78,
+              "col": 33,
+              "endCol": 35,
+              "raw": "40"
+            }
+          }
+        }
+      ]
+    },
+    "WatchlistScreen@app/(tabs)/watchlist.tsx:81": {
+      "element": {
+        "file": "app/(tabs)/watchlist.tsx",
+        "line": 81
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "app/(tabs)/watchlist.tsx",
+          "properties": {
+            "width": {
+              "line": 83,
+              "col": 23,
+              "endCol": 25,
+              "raw": "72"
+            },
+            "height": {
+              "line": 84,
+              "col": 24,
+              "endCol": 26,
+              "raw": "72"
+            },
+            "borderRadius": {
+              "line": 85,
+              "col": 30,
+              "endCol": 32,
+              "raw": "36"
+            },
+            "alignItems": {
+              "line": 87,
+              "col": 28,
+              "endCol": 36,
+              "raw": "\"center\""
+            },
+            "justifyContent": {
+              "line": 88,
+              "col": 32,
+              "endCol": 40,
+              "raw": "\"center\""
+            },
+            "marginBottom": {
+              "line": 89,
+              "col": 30,
+              "endCol": 32,
+              "raw": "20"
+            }
+          }
+        }
+      ]
+    },
+    "WatchlistScreen@app/(tabs)/watchlist.tsx:94": {
+      "element": {
+        "file": "app/(tabs)/watchlist.tsx",
+        "line": 94
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "app/(tabs)/watchlist.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 97,
+              "col": 26,
+              "endCol": 28,
+              "raw": "20"
+            },
+            "textAlign": {
+              "line": 99,
+              "col": 27,
+              "endCol": 35,
+              "raw": "\"center\""
+            },
+            "marginBottom": {
+              "line": 100,
+              "col": 30,
+              "endCol": 31,
+              "raw": "8"
+            }
+          }
+        }
+      ]
+    },
+    "WatchlistScreen@app/(tabs)/watchlist.tsx:105": {
+      "element": {
+        "file": "app/(tabs)/watchlist.tsx",
+        "line": 105
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "app/(tabs)/watchlist.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 108,
+              "col": 26,
+              "endCol": 28,
+              "raw": "14"
+            },
+            "textAlign": {
+              "line": 110,
+              "col": 27,
+              "endCol": 35,
+              "raw": "\"center\""
+            },
+            "lineHeight": {
+              "line": 111,
+              "col": 28,
+              "endCol": 30,
+              "raw": "20"
             }
           }
         }
@@ -2534,10 +2116,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:24": {
+    "AssetDetailScreen@app/asset/[id].tsx:25": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 24
+        "line": 25
       },
       "styles": [
         {
@@ -2545,19 +2127,19 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "flex": {
-              "line": 26,
+              "line": 27,
               "col": 16,
               "endCol": 17,
               "raw": "1"
             },
             "alignItems": {
-              "line": 28,
+              "line": 29,
               "col": 22,
               "endCol": 30,
               "raw": "\"center\""
             },
             "justifyContent": {
-              "line": 29,
+              "line": 30,
               "col": 26,
               "endCol": 34,
               "raw": "\"center\""
@@ -2566,10 +2148,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:32": {
+    "AssetDetailScreen@app/asset/[id].tsx:33": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 32
+        "line": 33
       },
       "styles": [
         {
@@ -2577,7 +2159,7 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "fontSize": {
-              "line": 35,
+              "line": 36,
               "col": 22,
               "endCol": 24,
               "raw": "18"
@@ -2586,10 +2168,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:41": {
+    "AssetDetailScreen@app/asset/[id].tsx:42": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 41
+        "line": 42
       },
       "styles": [
         {
@@ -2597,13 +2179,13 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "marginTop": {
-              "line": 43,
+              "line": 44,
               "col": 30,
               "endCol": 32,
               "raw": "16"
             },
             "padding": {
-              "line": 43,
+              "line": 44,
               "col": 43,
               "endCol": 45,
               "raw": "12"
@@ -2612,10 +2194,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:45": {
+    "AssetDetailScreen@app/asset/[id].tsx:46": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 45
+        "line": 46
       },
       "styles": [
         {
@@ -2623,7 +2205,7 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "fontSize": {
-              "line": 45,
+              "line": 46,
               "col": 61,
               "endCol": 63,
               "raw": "14"
@@ -2632,10 +2214,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:54": {
+    "AssetDetailScreen@app/asset/[id].tsx:55": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 54
+        "line": 55
       },
       "styles": [
         {
@@ -2643,36 +2225,10 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "flex": {
-              "line": 54,
+              "line": 55,
               "col": 25,
               "endCol": 26,
               "raw": "1"
-            }
-          }
-        }
-      ]
-    },
-    "AssetDetailScreen@app/asset/[id].tsx:60": {
-      "element": {
-        "file": "app/asset/[id].tsx",
-        "line": 60
-      },
-      "styles": [
-        {
-          "origin": "inline",
-          "file": "app/asset/[id].tsx",
-          "properties": {
-            "height": {
-              "line": 60,
-              "col": 31,
-              "endCol": 34,
-              "raw": "400"
-            },
-            "position": {
-              "line": 60,
-              "col": 46,
-              "endCol": 56,
-              "raw": "\"relative\""
             }
           }
         }
@@ -2688,14 +2244,40 @@
           "origin": "inline",
           "file": "app/asset/[id].tsx",
           "properties": {
+            "height": {
+              "line": 61,
+              "col": 31,
+              "endCol": 34,
+              "raw": "400"
+            },
+            "position": {
+              "line": 61,
+              "col": 46,
+              "endCol": 56,
+              "raw": "\"relative\""
+            }
+          }
+        }
+      ]
+    },
+    "AssetDetailScreen@app/asset/[id].tsx:62": {
+      "element": {
+        "file": "app/asset/[id].tsx",
+        "line": 62
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "app/asset/[id].tsx",
+          "properties": {
             "width": {
-              "line": 63,
+              "line": 64,
               "col": 28,
               "endCol": 34,
               "raw": "\"100%\""
             },
             "height": {
-              "line": 63,
+              "line": 64,
               "col": 44,
               "endCol": 50,
               "raw": "\"100%\""
@@ -2704,10 +2286,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:69": {
+    "AssetDetailScreen@app/asset/[id].tsx:70": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 69
+        "line": 70
       },
       "styles": [
         {
@@ -2715,61 +2297,61 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "position": {
-              "line": 71,
+              "line": 72,
               "col": 24,
               "endCol": 34,
               "raw": "\"absolute\""
             },
             "top": {
-              "line": 72,
+              "line": 73,
               "col": 19,
               "endCol": 20,
               "raw": "0"
             },
             "left": {
-              "line": 73,
+              "line": 74,
               "col": 20,
               "endCol": 21,
               "raw": "0"
             },
             "right": {
-              "line": 74,
+              "line": 75,
               "col": 21,
               "endCol": 22,
               "raw": "0"
             },
             "paddingHorizontal": {
-              "line": 76,
+              "line": 77,
               "col": 33,
               "endCol": 35,
               "raw": "16"
             },
             "paddingBottom": {
-              "line": 77,
+              "line": 78,
               "col": 29,
               "endCol": 31,
               "raw": "12"
             },
             "backgroundColor": {
-              "line": 78,
+              "line": 79,
               "col": 31,
               "endCol": 49,
               "raw": "\"rgba(0,0,0,0.35)\""
             },
             "flexDirection": {
-              "line": 79,
+              "line": 80,
               "col": 29,
               "endCol": 34,
               "raw": "\"row\""
             },
             "justifyContent": {
-              "line": 80,
+              "line": 81,
               "col": 30,
               "endCol": 45,
               "raw": "\"space-between\""
             },
             "alignItems": {
-              "line": 81,
+              "line": 82,
               "col": 26,
               "endCol": 34,
               "raw": "\"center\""
@@ -2778,10 +2360,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:85": {
+    "AssetDetailScreen@app/asset/[id].tsx:86": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 85
+        "line": 86
       },
       "styles": [
         {
@@ -2789,37 +2371,37 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "width": {
-              "line": 88,
+              "line": 89,
               "col": 23,
               "endCol": 25,
               "raw": "40"
             },
             "height": {
-              "line": 89,
+              "line": 90,
               "col": 24,
               "endCol": 26,
               "raw": "40"
             },
             "borderRadius": {
-              "line": 90,
+              "line": 91,
               "col": 30,
               "endCol": 32,
               "raw": "20"
             },
             "backgroundColor": {
-              "line": 91,
+              "line": 92,
               "col": 33,
               "endCol": 50,
               "raw": "\"rgba(0,0,0,0.5)\""
             },
             "alignItems": {
-              "line": 92,
+              "line": 93,
               "col": 28,
               "endCol": 36,
               "raw": "\"center\""
             },
             "justifyContent": {
-              "line": 93,
+              "line": 94,
               "col": 32,
               "endCol": 40,
               "raw": "\"center\""
@@ -2828,10 +2410,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:100": {
+    "AssetDetailScreen@app/asset/[id].tsx:101": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 100
+        "line": 101
       },
       "styles": [
         {
@@ -2839,49 +2421,49 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "flexDirection": {
-              "line": 103,
+              "line": 104,
               "col": 31,
               "endCol": 36,
               "raw": "\"row\""
             },
             "alignItems": {
-              "line": 104,
+              "line": 105,
               "col": 28,
               "endCol": 36,
               "raw": "\"center\""
             },
             "gap": {
-              "line": 105,
+              "line": 106,
               "col": 21,
               "endCol": 22,
               "raw": "6"
             },
             "paddingHorizontal": {
-              "line": 106,
+              "line": 107,
               "col": 35,
               "endCol": 37,
               "raw": "12"
             },
             "paddingVertical": {
-              "line": 107,
+              "line": 108,
               "col": 33,
               "endCol": 34,
               "raw": "8"
             },
             "borderRadius": {
-              "line": 108,
+              "line": 109,
               "col": 30,
               "endCol": 32,
               "raw": "20"
             },
             "backgroundColor": {
-              "line": 109,
+              "line": 110,
               "col": 33,
               "endCol": 50,
               "raw": "\"rgba(0,0,0,0.5)\""
             },
             "borderCurve": {
-              "line": 110,
+              "line": 111,
               "col": 29,
               "endCol": 41,
               "raw": "\"continuous\""
@@ -2890,10 +2472,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:118": {
+    "AssetDetailScreen@app/asset/[id].tsx:119": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 118
+        "line": 119
       },
       "styles": [
         {
@@ -2901,7 +2483,7 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "fontSize": {
-              "line": 121,
+              "line": 122,
               "col": 28,
               "endCol": 30,
               "raw": "12"
@@ -2910,10 +2492,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:131": {
+    "AssetDetailScreen@app/asset/[id].tsx:132": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 131
+        "line": 132
       },
       "styles": [
         {
@@ -2921,37 +2503,37 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "position": {
-              "line": 133,
+              "line": 134,
               "col": 24,
               "endCol": 34,
               "raw": "\"absolute\""
             },
             "bottom": {
-              "line": 134,
+              "line": 135,
               "col": 22,
               "endCol": 23,
               "raw": "0"
             },
             "left": {
-              "line": 135,
+              "line": 136,
               "col": 20,
               "endCol": 21,
               "raw": "0"
             },
             "right": {
-              "line": 136,
+              "line": 137,
               "col": 21,
               "endCol": 22,
               "raw": "0"
             },
             "height": {
-              "line": 137,
+              "line": 138,
               "col": 22,
               "endCol": 25,
               "raw": "100"
             },
             "backgroundColor": {
-              "line": 138,
+              "line": 139,
               "col": 31,
               "endCol": 51,
               "raw": "\"rgba(10,10,10,0.8)\""
@@ -2960,10 +2542,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:144": {
+    "AssetDetailScreen@app/asset/[id].tsx:145": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 144
+        "line": 145
       },
       "styles": [
         {
@@ -2971,13 +2553,13 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "paddingHorizontal": {
-              "line": 144,
+              "line": 145,
               "col": 42,
               "endCol": 44,
               "raw": "24"
             },
             "marginTop": {
-              "line": 144,
+              "line": 145,
               "col": 57,
               "endCol": 60,
               "raw": "-40"
@@ -2986,10 +2568,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:146": {
+    "AssetDetailScreen@app/asset/[id].tsx:147": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 146
+        "line": 147
       },
       "styles": [
         {
@@ -2997,19 +2579,19 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "fontSize": {
-              "line": 149,
+              "line": 150,
               "col": 24,
               "endCol": 26,
               "raw": "30"
             },
             "marginBottom": {
-              "line": 151,
+              "line": 152,
               "col": 28,
               "endCol": 30,
               "raw": "12"
             },
             "lineHeight": {
-              "line": 152,
+              "line": 153,
               "col": 26,
               "endCol": 28,
               "raw": "36"
@@ -3018,10 +2600,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:160": {
+    "AssetDetailScreen@app/asset/[id].tsx:161": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 160
+        "line": 161
       },
       "styles": [
         {
@@ -3029,25 +2611,25 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "flexDirection": {
-              "line": 162,
+              "line": 163,
               "col": 29,
               "endCol": 34,
               "raw": "\"row\""
             },
             "alignItems": {
-              "line": 163,
+              "line": 164,
               "col": 26,
               "endCol": 34,
               "raw": "\"center\""
             },
             "gap": {
-              "line": 164,
+              "line": 165,
               "col": 19,
               "endCol": 21,
               "raw": "12"
             },
             "marginBottom": {
-              "line": 165,
+              "line": 166,
               "col": 28,
               "endCol": 30,
               "raw": "24"
@@ -3056,10 +2638,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:168": {
+    "AssetDetailScreen@app/asset/[id].tsx:169": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 168
+        "line": 169
       },
       "styles": [
         {
@@ -3067,31 +2649,31 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "paddingHorizontal": {
-              "line": 170,
+              "line": 171,
               "col": 35,
               "endCol": 37,
               "raw": "10"
             },
             "paddingVertical": {
-              "line": 171,
+              "line": 172,
               "col": 33,
               "endCol": 34,
               "raw": "5"
             },
             "borderRadius": {
-              "line": 172,
+              "line": 173,
               "col": 30,
               "endCol": 31,
               "raw": "6"
             },
             "borderCurve": {
-              "line": 173,
+              "line": 174,
               "col": 29,
               "endCol": 41,
               "raw": "\"continuous\""
             },
             "borderWidth": {
-              "line": 175,
+              "line": 176,
               "col": 29,
               "endCol": 30,
               "raw": "1"
@@ -3100,10 +2682,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:179": {
+    "AssetDetailScreen@app/asset/[id].tsx:180": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 179
+        "line": 180
       },
       "styles": [
         {
@@ -3111,13 +2693,13 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "fontSize": {
-              "line": 182,
+              "line": 183,
               "col": 28,
               "endCol": 30,
               "raw": "12"
             },
             "letterSpacing": {
-              "line": 184,
+              "line": 185,
               "col": 33,
               "endCol": 36,
               "raw": "0.5"
@@ -3126,10 +2708,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:190": {
+    "AssetDetailScreen@app/asset/[id].tsx:191": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 190
+        "line": 191
       },
       "styles": [
         {
@@ -3137,13 +2719,13 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "fontSize": {
-              "line": 193,
+              "line": 194,
               "col": 26,
               "endCol": 28,
               "raw": "22"
             },
             "letterSpacing": {
-              "line": 195,
+              "line": 196,
               "col": 31,
               "endCol": 34,
               "raw": "0.5"
@@ -3152,10 +2734,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:204": {
+    "AssetDetailScreen@app/asset/[id].tsx:205": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 204
+        "line": 205
       },
       "styles": [
         {
@@ -3163,13 +2745,13 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "height": {
-              "line": 206,
+              "line": 207,
               "col": 22,
               "endCol": 23,
               "raw": "1"
             },
             "marginBottom": {
-              "line": 208,
+              "line": 209,
               "col": 28,
               "endCol": 30,
               "raw": "24"
@@ -3178,10 +2760,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:213": {
+    "AssetDetailScreen@app/asset/[id].tsx:214": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 213
+        "line": 214
       },
       "styles": [
         {
@@ -3189,19 +2771,19 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "fontSize": {
-              "line": 216,
+              "line": 217,
               "col": 24,
               "endCol": 26,
               "raw": "16"
             },
             "marginBottom": {
-              "line": 218,
+              "line": 219,
               "col": 28,
               "endCol": 30,
               "raw": "12"
             },
             "letterSpacing": {
-              "line": 219,
+              "line": 220,
               "col": 29,
               "endCol": 32,
               "raw": "0.3"
@@ -3210,10 +2792,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:224": {
+    "AssetDetailScreen@app/asset/[id].tsx:225": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 224
+        "line": 225
       },
       "styles": [
         {
@@ -3221,37 +2803,37 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "borderRadius": {
-              "line": 227,
+              "line": 228,
               "col": 28,
               "endCol": 30,
               "raw": "12"
             },
             "borderCurve": {
-              "line": 228,
+              "line": 229,
               "col": 27,
               "endCol": 39,
               "raw": "\"continuous\""
             },
             "padding": {
-              "line": 229,
+              "line": 230,
               "col": 23,
               "endCol": 25,
               "raw": "16"
             },
             "gap": {
-              "line": 230,
+              "line": 231,
               "col": 19,
               "endCol": 21,
               "raw": "10"
             },
             "borderWidth": {
-              "line": 231,
+              "line": 232,
               "col": 27,
               "endCol": 28,
               "raw": "1"
             },
             "marginBottom": {
-              "line": 233,
+              "line": 234,
               "col": 28,
               "endCol": 30,
               "raw": "24"
@@ -3260,10 +2842,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:242": {
+    "AssetDetailScreen@app/asset/[id].tsx:243": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 242
+        "line": 243
       },
       "styles": [
         {
@@ -3271,13 +2853,13 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "height": {
-              "line": 244,
+              "line": 245,
               "col": 24,
               "endCol": 25,
               "raw": "1"
             },
             "marginVertical": {
-              "line": 246,
+              "line": 247,
               "col": 32,
               "endCol": 33,
               "raw": "2"
@@ -3286,10 +2868,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:254": {
+    "AssetDetailScreen@app/asset/[id].tsx:261": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 254
+        "line": 261
       },
       "styles": [
         {
@@ -3297,19 +2879,19 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "fontSize": {
-              "line": 257,
+              "line": 264,
               "col": 24,
               "endCol": 26,
               "raw": "16"
             },
             "marginBottom": {
-              "line": 259,
+              "line": 266,
               "col": 28,
               "endCol": 29,
               "raw": "8"
             },
             "letterSpacing": {
-              "line": 260,
+              "line": 267,
               "col": 29,
               "endCol": 32,
               "raw": "0.3"
@@ -3318,10 +2900,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:265": {
+    "AssetDetailScreen@app/asset/[id].tsx:272": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 265
+        "line": 272
       },
       "styles": [
         {
@@ -3329,19 +2911,19 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "fontSize": {
-              "line": 268,
+              "line": 275,
               "col": 24,
               "endCol": 26,
               "raw": "14"
             },
             "lineHeight": {
-              "line": 270,
+              "line": 277,
               "col": 26,
               "endCol": 28,
               "raw": "22"
             },
             "marginBottom": {
-              "line": 271,
+              "line": 278,
               "col": 28,
               "endCol": 30,
               "raw": "24"
@@ -3350,10 +2932,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:279": {
+    "AssetDetailScreen@app/asset/[id].tsx:286": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 279
+        "line": 286
       },
       "styles": [
         {
@@ -3361,19 +2943,19 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "fontSize": {
-              "line": 282,
+              "line": 289,
               "col": 24,
               "endCol": 26,
               "raw": "16"
             },
             "marginBottom": {
-              "line": 284,
+              "line": 291,
               "col": 28,
               "endCol": 29,
               "raw": "8"
             },
             "letterSpacing": {
-              "line": 285,
+              "line": 292,
               "col": 29,
               "endCol": 32,
               "raw": "0.3"
@@ -3382,10 +2964,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:290": {
+    "AssetDetailScreen@app/asset/[id].tsx:297": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 290
+        "line": 297
       },
       "styles": [
         {
@@ -3393,25 +2975,25 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "borderRadius": {
-              "line": 293,
+              "line": 300,
               "col": 28,
               "endCol": 30,
               "raw": "12"
             },
             "borderCurve": {
-              "line": 294,
+              "line": 301,
               "col": 27,
               "endCol": 39,
               "raw": "\"continuous\""
             },
             "padding": {
-              "line": 295,
+              "line": 302,
               "col": 23,
               "endCol": 25,
               "raw": "16"
             },
             "borderWidth": {
-              "line": 296,
+              "line": 303,
               "col": 27,
               "endCol": 28,
               "raw": "1"
@@ -3420,10 +3002,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:300": {
+    "AssetDetailScreen@app/asset/[id].tsx:307": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 300
+        "line": 307
       },
       "styles": [
         {
@@ -3431,13 +3013,13 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "fontSize": {
-              "line": 303,
+              "line": 310,
               "col": 26,
               "endCol": 28,
               "raw": "13"
             },
             "lineHeight": {
-              "line": 305,
+              "line": 312,
               "col": 28,
               "endCol": 30,
               "raw": "19"
@@ -3446,10 +3028,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:316": {
+    "AssetDetailScreen@app/asset/[id].tsx:323": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 316
+        "line": 323
       },
       "styles": [
         {
@@ -3457,43 +3039,43 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "position": {
-              "line": 318,
+              "line": 325,
               "col": 20,
               "endCol": 30,
               "raw": "\"absolute\""
             },
             "bottom": {
-              "line": 319,
+              "line": 326,
               "col": 18,
               "endCol": 19,
               "raw": "0"
             },
             "left": {
-              "line": 320,
+              "line": 327,
               "col": 16,
               "endCol": 17,
               "raw": "0"
             },
             "right": {
-              "line": 321,
+              "line": 328,
               "col": 17,
               "endCol": 18,
               "raw": "0"
             },
             "paddingHorizontal": {
-              "line": 322,
+              "line": 329,
               "col": 29,
               "endCol": 31,
               "raw": "24"
             },
             "paddingTop": {
-              "line": 323,
+              "line": 330,
               "col": 22,
               "endCol": 24,
               "raw": "12"
             },
             "borderTopWidth": {
-              "line": 326,
+              "line": 333,
               "col": 26,
               "endCol": 29,
               "raw": "0.5"
@@ -3502,10 +3084,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:330": {
+    "AssetDetailScreen@app/asset/[id].tsx:337": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 330
+        "line": 337
       },
       "styles": [
         {
@@ -3514,10 +3096,10 @@
         }
       ]
     },
-    "AssetDetailScreen@app/asset/[id].tsx:343": {
+    "AssetDetailScreen@app/asset/[id].tsx:350": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 343
+        "line": 350
       },
       "styles": [
         {
@@ -3525,19 +3107,19 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "fontSize": {
-              "line": 346,
+              "line": 353,
               "col": 24,
               "endCol": 26,
               "raw": "15"
             },
             "letterSpacing": {
-              "line": 348,
+              "line": 355,
               "col": 29,
               "endCol": 32,
               "raw": "0.5"
             },
             "textAlign": {
-              "line": 349,
+              "line": 356,
               "col": 25,
               "endCol": 33,
               "raw": "\"center\""
@@ -3546,10 +3128,10 @@
         }
       ]
     },
-    "DetailRow@app/asset/[id].tsx:362": {
+    "DetailRow@app/asset/[id].tsx:369": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 362
+        "line": 369
       },
       "styles": [
         {
@@ -3557,13 +3139,13 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "flexDirection": {
-              "line": 362,
+              "line": 369,
               "col": 34,
               "endCol": 39,
               "raw": "\"row\""
             },
             "justifyContent": {
-              "line": 362,
+              "line": 369,
               "col": 57,
               "endCol": 72,
               "raw": "\"space-between\""
@@ -3572,10 +3154,10 @@
         }
       ]
     },
-    "DetailRow@app/asset/[id].tsx:363": {
+    "DetailRow@app/asset/[id].tsx:370": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 363
+        "line": 370
       },
       "styles": [
         {
@@ -3583,7 +3165,7 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "fontSize": {
-              "line": 366,
+              "line": 373,
               "col": 20,
               "endCol": 22,
               "raw": "13"
@@ -3592,10 +3174,10 @@
         }
       ]
     },
-    "DetailRow@app/asset/[id].tsx:372": {
+    "DetailRow@app/asset/[id].tsx:379": {
       "element": {
         "file": "app/asset/[id].tsx",
-        "line": 372
+        "line": 379
       },
       "styles": [
         {
@@ -3603,10 +3185,110 @@
           "file": "app/asset/[id].tsx",
           "properties": {
             "fontSize": {
-              "line": 375,
+              "line": 382,
               "col": 20,
               "endCol": 22,
               "raw": "13"
+            }
+          }
+        }
+      ]
+    },
+    "InquiryButton@components/inquiry-button.tsx:12": {
+      "element": {
+        "file": "components/inquiry-button.tsx",
+        "line": 12
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/inquiry-button.tsx",
+          "properties": {
+            "position": {
+              "line": 14,
+              "col": 18,
+              "endCol": 28,
+              "raw": "\"absolute\""
+            },
+            "bottom": {
+              "line": 15,
+              "col": 16,
+              "endCol": 17,
+              "raw": "0"
+            },
+            "left": {
+              "line": 16,
+              "col": 14,
+              "endCol": 15,
+              "raw": "0"
+            },
+            "right": {
+              "line": 17,
+              "col": 15,
+              "endCol": 16,
+              "raw": "0"
+            },
+            "paddingHorizontal": {
+              "line": 18,
+              "col": 27,
+              "endCol": 29,
+              "raw": "20"
+            },
+            "paddingTop": {
+              "line": 19,
+              "col": 20,
+              "endCol": 22,
+              "raw": "12"
+            },
+            "borderTopWidth": {
+              "line": 22,
+              "col": 24,
+              "endCol": 27,
+              "raw": "0.5"
+            }
+          }
+        }
+      ]
+    },
+    "InquiryButton@components/inquiry-button.tsx:26": {
+      "element": {
+        "file": "components/inquiry-button.tsx",
+        "line": 26
+      },
+      "styles": [
+        {
+          "origin": "dynamic",
+          "resolvable": false
+        }
+      ]
+    },
+    "InquiryButton@components/inquiry-button.tsx:39": {
+      "element": {
+        "file": "components/inquiry-button.tsx",
+        "line": 39
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/inquiry-button.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 42,
+              "col": 22,
+              "endCol": 24,
+              "raw": "15"
+            },
+            "letterSpacing": {
+              "line": 44,
+              "col": 27,
+              "endCol": 30,
+              "raw": "0.5"
+            },
+            "textAlign": {
+              "line": 45,
+              "col": 23,
+              "endCol": 31,
+              "raw": "\"center\""
             }
           }
         }
@@ -3843,6 +3525,1396 @@
               "col": 25,
               "endCol": 26,
               "raw": "2"
+            }
+          }
+        }
+      ]
+    },
+    "HeroCarousel@components/hero-carousel.tsx:68": {
+      "element": {
+        "file": "components/hero-carousel.tsx",
+        "line": 68
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/hero-carousel.tsx",
+          "properties": {
+            "flexGrow": {
+              "line": 77,
+              "col": 27,
+              "endCol": 28,
+              "raw": "0"
+            }
+          }
+        }
+      ]
+    },
+    "HeroCarousel@components/hero-carousel.tsx:85": {
+      "element": {
+        "file": "components/hero-carousel.tsx",
+        "line": 85
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/hero-carousel.tsx",
+          "properties": {
+            "width": {
+              "line": 87,
+              "col": 30,
+              "endCol": 36,
+              "raw": "\"100%\""
+            },
+            "height": {
+              "line": 87,
+              "col": 46,
+              "endCol": 52,
+              "raw": "\"100%\""
+            }
+          }
+        }
+      ]
+    },
+    "HeroCarousel@components/hero-carousel.tsx:92": {
+      "element": {
+        "file": "components/hero-carousel.tsx",
+        "line": 92
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/hero-carousel.tsx",
+          "properties": {
+            "position": {
+              "line": 94,
+              "col": 26,
+              "endCol": 36,
+              "raw": "\"absolute\""
+            },
+            "bottom": {
+              "line": 95,
+              "col": 24,
+              "endCol": 25,
+              "raw": "0"
+            },
+            "left": {
+              "line": 96,
+              "col": 22,
+              "endCol": 23,
+              "raw": "0"
+            },
+            "right": {
+              "line": 97,
+              "col": 23,
+              "endCol": 24,
+              "raw": "0"
+            },
+            "backgroundColor": {
+              "line": 99,
+              "col": 33,
+              "endCol": 46,
+              "raw": "\"transparent\""
+            }
+          }
+        }
+      ]
+    },
+    "HeroCarousel@components/hero-carousel.tsx:102": {
+      "element": {
+        "file": "components/hero-carousel.tsx",
+        "line": 102
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/hero-carousel.tsx",
+          "properties": {
+            "flex": {
+              "line": 104,
+              "col": 24,
+              "endCol": 25,
+              "raw": "1"
+            },
+            "backgroundColor": {
+              "line": 105,
+              "col": 35,
+              "endCol": 53,
+              "raw": "\"rgba(0,0,0,0.55)\""
+            },
+            "justifyContent": {
+              "line": 106,
+              "col": 34,
+              "endCol": 44,
+              "raw": "\"flex-end\""
+            },
+            "padding": {
+              "line": 107,
+              "col": 27,
+              "endCol": 29,
+              "raw": "24"
+            },
+            "paddingBottom": {
+              "line": 108,
+              "col": 33,
+              "endCol": 35,
+              "raw": "32"
+            }
+          }
+        }
+      ]
+    },
+    "HeroCarousel@components/hero-carousel.tsx:111": {
+      "element": {
+        "file": "components/hero-carousel.tsx",
+        "line": 111
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/hero-carousel.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 114,
+              "col": 30,
+              "endCol": 32,
+              "raw": "24"
+            },
+            "marginBottom": {
+              "line": 116,
+              "col": 34,
+              "endCol": 35,
+              "raw": "4"
+            },
+            "textShadowColor": {
+              "line": 117,
+              "col": 37,
+              "endCol": 54,
+              "raw": "\"rgba(0,0,0,0.5)\""
+            },
+            "textShadowRadius": {
+              "line": 119,
+              "col": 38,
+              "endCol": 39,
+              "raw": "4"
+            }
+          }
+        }
+      ]
+    },
+    "HeroCarousel@components/hero-carousel.tsx:125": {
+      "element": {
+        "file": "components/hero-carousel.tsx",
+        "line": 125
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/hero-carousel.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 128,
+              "col": 30,
+              "endCol": 32,
+              "raw": "12"
+            },
+            "marginBottom": {
+              "line": 130,
+              "col": 34,
+              "endCol": 35,
+              "raw": "4"
+            },
+            "letterSpacing": {
+              "line": 131,
+              "col": 35,
+              "endCol": 38,
+              "raw": "0.3"
+            }
+          }
+        }
+      ]
+    },
+    "HeroCarousel@components/hero-carousel.tsx:136": {
+      "element": {
+        "file": "components/hero-carousel.tsx",
+        "line": 136
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/hero-carousel.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 139,
+              "col": 30,
+              "endCol": 32,
+              "raw": "16"
+            },
+            "letterSpacing": {
+              "line": 141,
+              "col": 35,
+              "endCol": 38,
+              "raw": "0.5"
+            }
+          }
+        }
+      ]
+    },
+    "HeroCarousel@components/hero-carousel.tsx:150": {
+      "element": {
+        "file": "components/hero-carousel.tsx",
+        "line": 150
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/hero-carousel.tsx",
+          "properties": {
+            "position": {
+              "line": 152,
+              "col": 26,
+              "endCol": 36,
+              "raw": "\"absolute\""
+            },
+            "top": {
+              "line": 153,
+              "col": 21,
+              "endCol": 22,
+              "raw": "0"
+            },
+            "left": {
+              "line": 154,
+              "col": 22,
+              "endCol": 23,
+              "raw": "0"
+            },
+            "right": {
+              "line": 155,
+              "col": 23,
+              "endCol": 24,
+              "raw": "0"
+            },
+            "backgroundColor": {
+              "line": 157,
+              "col": 33,
+              "endCol": 50,
+              "raw": "\"rgba(0,0,0,0.3)\""
+            }
+          }
+        }
+      ]
+    },
+    "HeroCarousel@components/hero-carousel.tsx:165": {
+      "element": {
+        "file": "components/hero-carousel.tsx",
+        "line": 165
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/hero-carousel.tsx",
+          "properties": {
+            "position": {
+              "line": 167,
+              "col": 20,
+              "endCol": 30,
+              "raw": "\"absolute\""
+            },
+            "bottom": {
+              "line": 168,
+              "col": 18,
+              "endCol": 20,
+              "raw": "14"
+            },
+            "alignSelf": {
+              "line": 169,
+              "col": 21,
+              "endCol": 29,
+              "raw": "\"center\""
+            },
+            "flexDirection": {
+              "line": 170,
+              "col": 25,
+              "endCol": 30,
+              "raw": "\"row\""
+            },
+            "gap": {
+              "line": 171,
+              "col": 15,
+              "endCol": 16,
+              "raw": "6"
+            }
+          }
+        }
+      ]
+    },
+    "HeroCarousel@components/hero-carousel.tsx:175": {
+      "element": {
+        "file": "components/hero-carousel.tsx",
+        "line": 175
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/hero-carousel.tsx",
+          "properties": {
+            "height": {
+              "line": 179,
+              "col": 22,
+              "endCol": 23,
+              "raw": "6"
+            },
+            "borderRadius": {
+              "line": 180,
+              "col": 28,
+              "endCol": 29,
+              "raw": "3"
+            },
+            "borderCurve": {
+              "line": 183,
+              "col": 27,
+              "endCol": 39,
+              "raw": "\"continuous\""
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:80": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 80
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "marginBottom": {
+              "line": 80,
+              "col": 33,
+              "endCol": 35,
+              "raw": "24"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:82": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 82
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "flexDirection": {
+              "line": 84,
+              "col": 25,
+              "endCol": 30,
+              "raw": "\"row\""
+            },
+            "alignItems": {
+              "line": 85,
+              "col": 22,
+              "endCol": 30,
+              "raw": "\"center\""
+            },
+            "gap": {
+              "line": 86,
+              "col": 15,
+              "endCol": 17,
+              "raw": "10"
+            },
+            "marginBottom": {
+              "line": 87,
+              "col": 24,
+              "endCol": 26,
+              "raw": "16"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:90": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 90
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "flex": {
+              "line": 92,
+              "col": 18,
+              "endCol": 19,
+              "raw": "1"
+            },
+            "height": {
+              "line": 93,
+              "col": 20,
+              "endCol": 21,
+              "raw": "1"
+            },
+            "opacity": {
+              "line": 95,
+              "col": 21,
+              "endCol": 24,
+              "raw": "0.4"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:98": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 98
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 101,
+              "col": 22,
+              "endCol": 24,
+              "raw": "16"
+            },
+            "letterSpacing": {
+              "line": 103,
+              "col": 27,
+              "endCol": 30,
+              "raw": "1.5"
+            },
+            "textTransform": {
+              "line": 104,
+              "col": 27,
+              "endCol": 38,
+              "raw": "\"uppercase\""
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:109": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 109
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "flex": {
+              "line": 111,
+              "col": 18,
+              "endCol": 19,
+              "raw": "1"
+            },
+            "height": {
+              "line": 112,
+              "col": 20,
+              "endCol": 21,
+              "raw": "1"
+            },
+            "opacity": {
+              "line": 114,
+              "col": 21,
+              "endCol": 24,
+              "raw": "0.4"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:120": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 120
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "borderRadius": {
+              "line": 123,
+              "col": 24,
+              "endCol": 26,
+              "raw": "16"
+            },
+            "borderCurve": {
+              "line": 124,
+              "col": 23,
+              "endCol": 35,
+              "raw": "\"continuous\""
+            },
+            "borderWidth": {
+              "line": 125,
+              "col": 23,
+              "endCol": 24,
+              "raw": "1"
+            },
+            "overflow": {
+              "line": 127,
+              "col": 20,
+              "endCol": 28,
+              "raw": "\"hidden\""
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:131": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 131
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "paddingVertical": {
+              "line": 136,
+              "col": 29,
+              "endCol": 31,
+              "raw": "10"
+            },
+            "paddingHorizontal": {
+              "line": 137,
+              "col": 31,
+              "endCol": 33,
+              "raw": "16"
+            },
+            "alignItems": {
+              "line": 138,
+              "col": 24,
+              "endCol": 32,
+              "raw": "\"center\""
+            },
+            "borderBottomWidth": {
+              "line": 139,
+              "col": 31,
+              "endCol": 32,
+              "raw": "1"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:145": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 145
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 148,
+              "col": 24,
+              "endCol": 26,
+              "raw": "12"
+            },
+            "letterSpacing": {
+              "line": 150,
+              "col": 29,
+              "endCol": 32,
+              "raw": "1.8"
+            },
+            "textAlign": {
+              "line": 151,
+              "col": 25,
+              "endCol": 33,
+              "raw": "\"center\""
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:162": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 162
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "padding": {
+              "line": 162,
+              "col": 32,
+              "endCol": 34,
+              "raw": "20"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:164": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 164
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "flexDirection": {
+              "line": 166,
+              "col": 29,
+              "endCol": 34,
+              "raw": "\"row\""
+            },
+            "justifyContent": {
+              "line": 167,
+              "col": 30,
+              "endCol": 45,
+              "raw": "\"space-between\""
+            },
+            "alignItems": {
+              "line": 168,
+              "col": 26,
+              "endCol": 36,
+              "raw": "\"baseline\""
+            },
+            "marginBottom": {
+              "line": 169,
+              "col": 28,
+              "endCol": 30,
+              "raw": "14"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:172": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 172
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 175,
+              "col": 26,
+              "endCol": 28,
+              "raw": "12"
+            },
+            "letterSpacing": {
+              "line": 177,
+              "col": 31,
+              "endCol": 34,
+              "raw": "0.5"
+            },
+            "textTransform": {
+              "line": 178,
+              "col": 31,
+              "endCol": 42,
+              "raw": "\"uppercase\""
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:183": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 183
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 186,
+              "col": 26,
+              "endCol": 28,
+              "raw": "20"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:197": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 197
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "flexDirection": {
+              "line": 199,
+              "col": 29,
+              "endCol": 34,
+              "raw": "\"row\""
+            },
+            "justifyContent": {
+              "line": 200,
+              "col": 30,
+              "endCol": 45,
+              "raw": "\"space-between\""
+            },
+            "alignItems": {
+              "line": 201,
+              "col": 26,
+              "endCol": 36,
+              "raw": "\"baseline\""
+            },
+            "marginBottom": {
+              "line": 202,
+              "col": 28,
+              "endCol": 30,
+              "raw": "14"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:205": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 205
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 208,
+              "col": 26,
+              "endCol": 28,
+              "raw": "12"
+            },
+            "letterSpacing": {
+              "line": 210,
+              "col": 31,
+              "endCol": 34,
+              "raw": "0.5"
+            },
+            "textTransform": {
+              "line": 211,
+              "col": 31,
+              "endCol": 42,
+              "raw": "\"uppercase\""
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:216": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 216
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 219,
+              "col": 26,
+              "endCol": 28,
+              "raw": "20"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:230": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 230
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "height": {
+              "line": 232,
+              "col": 22,
+              "endCol": 23,
+              "raw": "1"
+            },
+            "opacity": {
+              "line": 234,
+              "col": 23,
+              "endCol": 26,
+              "raw": "0.3"
+            },
+            "marginVertical": {
+              "line": 235,
+              "col": 30,
+              "endCol": 32,
+              "raw": "14"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:240": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 240
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "flexDirection": {
+              "line": 242,
+              "col": 29,
+              "endCol": 34,
+              "raw": "\"row\""
+            },
+            "justifyContent": {
+              "line": 243,
+              "col": 30,
+              "endCol": 45,
+              "raw": "\"space-between\""
+            },
+            "alignItems": {
+              "line": 244,
+              "col": 26,
+              "endCol": 36,
+              "raw": "\"baseline\""
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:247": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 247
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 250,
+              "col": 26,
+              "endCol": 28,
+              "raw": "12"
+            },
+            "letterSpacing": {
+              "line": 252,
+              "col": 31,
+              "endCol": 34,
+              "raw": "0.8"
+            },
+            "textTransform": {
+              "line": 253,
+              "col": 31,
+              "endCol": 42,
+              "raw": "\"uppercase\""
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:258": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 258
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 261,
+              "col": 26,
+              "endCol": 28,
+              "raw": "24"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:275": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 275
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "height": {
+              "line": 277,
+              "col": 20,
+              "endCol": 21,
+              "raw": "1"
+            },
+            "marginHorizontal": {
+              "line": 278,
+              "col": 30,
+              "endCol": 32,
+              "raw": "20"
+            },
+            "opacity": {
+              "line": 280,
+              "col": 21,
+              "endCol": 24,
+              "raw": "0.2"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:285": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 285
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "padding": {
+              "line": 285,
+              "col": 32,
+              "endCol": 34,
+              "raw": "20"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:286": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 286
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 289,
+              "col": 24,
+              "endCol": 26,
+              "raw": "14"
+            },
+            "letterSpacing": {
+              "line": 291,
+              "col": 29,
+              "endCol": 32,
+              "raw": "0.5"
+            },
+            "marginBottom": {
+              "line": 292,
+              "col": 28,
+              "endCol": 30,
+              "raw": "12"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:298": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 298
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "gap": {
+              "line": 298,
+              "col": 30,
+              "endCol": 31,
+              "raw": "8"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:302": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 302
+      },
+      "styles": [
+        {
+          "origin": "dynamic",
+          "resolvable": false
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:324": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 324
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "width": {
+              "line": 326,
+              "col": 29,
+              "endCol": 31,
+              "raw": "18"
+            },
+            "height": {
+              "line": 327,
+              "col": 30,
+              "endCol": 32,
+              "raw": "18"
+            },
+            "borderRadius": {
+              "line": 328,
+              "col": 36,
+              "endCol": 37,
+              "raw": "9"
+            },
+            "borderWidth": {
+              "line": 329,
+              "col": 35,
+              "endCol": 36,
+              "raw": "2"
+            },
+            "alignItems": {
+              "line": 331,
+              "col": 34,
+              "endCol": 42,
+              "raw": "\"center\""
+            },
+            "justifyContent": {
+              "line": 332,
+              "col": 38,
+              "endCol": 46,
+              "raw": "\"center\""
+            },
+            "marginRight": {
+              "line": 333,
+              "col": 35,
+              "endCol": 37,
+              "raw": "12"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:337": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 337
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "width": {
+              "line": 339,
+              "col": 33,
+              "endCol": 34,
+              "raw": "8"
+            },
+            "height": {
+              "line": 340,
+              "col": 34,
+              "endCol": 35,
+              "raw": "8"
+            },
+            "borderRadius": {
+              "line": 341,
+              "col": 40,
+              "endCol": 41,
+              "raw": "4"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:349": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 349
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "flex": {
+              "line": 349,
+              "col": 39,
+              "endCol": 40,
+              "raw": "1"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:350": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 350
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 353,
+              "col": 34,
+              "endCol": 36,
+              "raw": "13"
+            },
+            "lineHeight": {
+              "line": 355,
+              "col": 36,
+              "endCol": 38,
+              "raw": "18"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:363": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 363
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "paddingHorizontal": {
+              "line": 365,
+              "col": 41,
+              "endCol": 42,
+              "raw": "8"
+            },
+            "paddingVertical": {
+              "line": 366,
+              "col": 39,
+              "endCol": 40,
+              "raw": "3"
+            },
+            "borderRadius": {
+              "line": 367,
+              "col": 36,
+              "endCol": 37,
+              "raw": "4"
+            },
+            "borderCurve": {
+              "line": 368,
+              "col": 35,
+              "endCol": 47,
+              "raw": "\"continuous\""
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:374": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 374
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 377,
+              "col": 34,
+              "endCol": 36,
+              "raw": "10"
+            },
+            "letterSpacing": {
+              "line": 379,
+              "col": 39,
+              "endCol": 42,
+              "raw": "0.3"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:392": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 392
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "height": {
+              "line": 394,
+              "col": 20,
+              "endCol": 21,
+              "raw": "1"
+            },
+            "marginHorizontal": {
+              "line": 395,
+              "col": 30,
+              "endCol": 32,
+              "raw": "20"
+            },
+            "opacity": {
+              "line": 397,
+              "col": 21,
+              "endCol": 24,
+              "raw": "0.2"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:402": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 402
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "padding": {
+              "line": 404,
+              "col": 21,
+              "endCol": 23,
+              "raw": "20"
+            },
+            "flexDirection": {
+              "line": 405,
+              "col": 27,
+              "endCol": 32,
+              "raw": "\"row\""
+            },
+            "alignItems": {
+              "line": 406,
+              "col": 24,
+              "endCol": 32,
+              "raw": "\"center\""
+            },
+            "justifyContent": {
+              "line": 407,
+              "col": 28,
+              "endCol": 43,
+              "raw": "\"space-between\""
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:410": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 410
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "flex": {
+              "line": 410,
+              "col": 31,
+              "endCol": 32,
+              "raw": "1"
+            },
+            "marginRight": {
+              "line": 410,
+              "col": 47,
+              "endCol": 49,
+              "raw": "16"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:411": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 411
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 414,
+              "col": 26,
+              "endCol": 28,
+              "raw": "14"
+            },
+            "marginBottom": {
+              "line": 416,
+              "col": 30,
+              "endCol": 31,
+              "raw": "3"
+            }
+          }
+        }
+      ]
+    },
+    "YieldCalculator@components/yield-calculator.tsx:421": {
+      "element": {
+        "file": "components/yield-calculator.tsx",
+        "line": 421
+      },
+      "styles": [
+        {
+          "origin": "inline",
+          "file": "components/yield-calculator.tsx",
+          "properties": {
+            "fontSize": {
+              "line": 424,
+              "col": 26,
+              "endCol": 28,
+              "raw": "11"
+            },
+            "lineHeight": {
+              "line": 426,
+              "col": 28,
+              "endCol": 30,
+              "raw": "16"
             }
           }
         }

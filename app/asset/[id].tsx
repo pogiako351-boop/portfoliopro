@@ -7,6 +7,7 @@ import { Colors } from "@/constants/Colors";
 import { Fonts } from "@/constants/Typography";
 import { useAppStore } from "@/store/useAppStore";
 import { getAssetImage } from "@/utils/images";
+import { YieldCalculator } from "@/components/yield-calculator";
 
 export default function AssetDetailScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
@@ -249,6 +250,12 @@ export default function AssetDetailScreen() {
             <DetailRow label="Retail" value={asset.retailPrice} />
             <DetailRow label="Market Value" value={asset.marketPrice} />
           </View>
+
+          {/* Yield Calculator */}
+          <YieldCalculator
+            retailPrice={asset.retailPrice}
+            marketPrice={asset.marketPrice}
+          />
 
           {/* Description */}
           <Text
