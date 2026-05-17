@@ -1,8 +1,26 @@
 /**
- * Base entity types for the app store.
- *
- * The skeleton phase will extend this file with app-specific entity
- * interfaces derived from the development plan's data model.
+ * Base entity types for the Vault app store.
  */
 
 export interface Preferences {}
+
+export type AssetCategory = "Art" | "Real Estate" | "Collectibles";
+
+export interface Asset {
+  id: string;
+  title: string;
+  category: AssetCategory;
+  imageUrl: string;
+  estimatedValue: string;
+  description: string;
+  provenance: string;
+  year: number;
+  isFeatured: boolean;
+}
+
+export interface Inquiry {
+  id: string;
+  contactIdentifier: string;
+  submittedAt: number;
+  status: "pending" | "logged";
+}
