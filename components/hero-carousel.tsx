@@ -113,7 +113,7 @@ export function HeroCarousel({ assets }: HeroCarouselProps) {
                     fontFamily: Fonts.serifBold,
                     fontSize: 24,
                     color: Colors.ivory,
-                    marginBottom: 6,
+                    marginBottom: 4,
                     textShadowColor: "rgba(0,0,0,0.5)",
                     textShadowOffset: { width: 0, height: 1 },
                     textShadowRadius: 4,
@@ -124,13 +124,24 @@ export function HeroCarousel({ assets }: HeroCarouselProps) {
                 </Text>
                 <Text
                   style={{
-                    fontFamily: Fonts.medium,
+                    fontFamily: Fonts.regular,
+                    fontSize: 12,
+                    color: Colors.cream,
+                    marginBottom: 4,
+                    letterSpacing: 0.3,
+                  }}
+                >
+                  Ref. {asset.reference} · {asset.material} · {asset.diameter}
+                </Text>
+                <Text
+                  style={{
+                    fontFamily: Fonts.semiBold,
                     fontSize: 16,
                     color: Colors.gold,
                     letterSpacing: 0.5,
                   }}
                 >
-                  {asset.estimatedValue}
+                  {asset.marketPrice}
                 </Text>
               </View>
             </View>

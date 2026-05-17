@@ -12,10 +12,18 @@ export interface Asset {
   category: AssetCategory;
   imageUrl: string;
   estimatedValue: string;
+  retailPrice: string;
+  marketPrice: string;
   description: string;
   provenance: string;
   year: number;
   isFeatured: boolean;
+  // Watch-specific specs
+  reference: string;
+  material: string;
+  diameter: string;
+  movement: string;
+  condition: string;
 }
 
 export interface Inquiry {

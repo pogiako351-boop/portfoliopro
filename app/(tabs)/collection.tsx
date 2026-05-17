@@ -7,11 +7,10 @@ import { Fonts } from "@/constants/Typography";
 import { useAppStore } from "@/store/useAppStore";
 import { AssetCard } from "@/components/asset-card";
 import { InquiryButton } from "@/components/inquiry-button";
-import type { AssetCategory } from "@/store/types";
 
-type FilterTab = "All" | AssetCategory;
+type FilterTab = "All" | "Steel" | "Gold" | "Unworn";
 
-const TABS: FilterTab[] = ["All", "Art", "Real Estate", "Collectibles"];
+const TABS: FilterTab[] = ["All", "Steel", "Gold", "Unworn"];
 
 export default function CollectionScreen() {
   const insets = useSafeAreaInsets();
@@ -23,7 +22,11 @@ export default function CollectionScreen() {
   const filteredAssets =
     activeFilter === "All"
       ? assets
-      : assets.filter((a) => a.category === activeFilter);
+      : activeFilter === "Steel"
+        ? assets.filter((a) => a.material.includes("Steel"))
+        : activeFilter === "Gold"
+          ? assets.filter((a) => a.material.includes("Gold"))
+          : assets.filter((a) => a.condition === "Unworn");
 
   const cardWidth = (width - 48 - 12) / 2;
 
@@ -48,12 +51,23 @@ export default function CollectionScreen() {
           >
             The Collection
           </Text>
+          <Text
+            style={{
+              fontFamily: Fonts.regular,
+              fontSize: 13,
+              color: Colors.muted,
+              marginTop: 4,
+              letterSpacing: 0.3,
+            }}
+          >
+            Curated Luxury Timepieces
+          </Text>
           <View
             style={{
               height: 1,
               backgroundColor: Colors.gold,
               opacity: 0.3,
-              marginTop: 8,
+              marginTop: 12,
               width: 60,
             }}
           />
@@ -135,7 +149,7 @@ export default function CollectionScreen() {
                 color: Colors.muted,
               }}
             >
-              No assets in this category
+              No timepieces match this filter
             </Text>
           </View>
         )}

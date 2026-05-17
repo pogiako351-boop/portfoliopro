@@ -184,7 +184,7 @@ export default function AssetDetailScreen() {
                   letterSpacing: 0.5,
                 }}
               >
-                {asset.category}
+                Watches
               </Text>
             </View>
             <Text
@@ -209,7 +209,48 @@ export default function AssetDetailScreen() {
             }}
           />
 
-          {/* Provenance / Description */}
+          {/* Specifications */}
+          <Text
+            style={{
+              fontFamily: Fonts.serifSemiBold,
+              fontSize: 16,
+              color: Colors.gold,
+              marginBottom: 12,
+              letterSpacing: 0.3,
+            }}
+          >
+            Specifications
+          </Text>
+          <View
+            style={{
+              backgroundColor: Colors.surface,
+              borderRadius: 12,
+              borderCurve: "continuous",
+              padding: 16,
+              gap: 10,
+              borderWidth: 1,
+              borderColor: Colors.borderSubtle,
+              marginBottom: 24,
+            }}
+          >
+            <DetailRow label="Reference" value={asset.reference} />
+            <DetailRow label="Material" value={asset.material} />
+            <DetailRow label="Diameter" value={asset.diameter} />
+            <DetailRow label="Movement" value={asset.movement} />
+            <DetailRow label="Manufacture" value={asset.year.toString()} />
+            <DetailRow label="Condition" value={asset.condition} />
+            <View
+              style={{
+                height: 1,
+                backgroundColor: Colors.borderSubtle,
+                marginVertical: 2,
+              }}
+            />
+            <DetailRow label="Retail" value={asset.retailPrice} />
+            <DetailRow label="Market Value" value={asset.marketPrice} />
+          </View>
+
+          {/* Description */}
           <Text
             style={{
               fontFamily: Fonts.serifSemiBold,
@@ -219,7 +260,7 @@ export default function AssetDetailScreen() {
               letterSpacing: 0.3,
             }}
           >
-            Provenance/Description
+            About This Timepiece
           </Text>
           <Text
             style={{
@@ -234,26 +275,28 @@ export default function AssetDetailScreen() {
             {asset.description}
           </Text>
 
-          {/* Details */}
+          {/* Provenance */}
+          <Text
+            style={{
+              fontFamily: Fonts.serifSemiBold,
+              fontSize: 16,
+              color: Colors.gold,
+              marginBottom: 8,
+              letterSpacing: 0.3,
+            }}
+          >
+            Provenance
+          </Text>
           <View
             style={{
               backgroundColor: Colors.surface,
               borderRadius: 12,
               borderCurve: "continuous",
               padding: 16,
-              gap: 12,
               borderWidth: 1,
               borderColor: Colors.borderSubtle,
             }}
           >
-            <DetailRow label="Origin" value={asset.year.toString()} />
-            <DetailRow label="Condition" value="Impeccable" />
-            <View
-              style={{
-                height: 1,
-                backgroundColor: Colors.borderSubtle,
-              }}
-            />
             <Text
               style={{
                 fontFamily: Fonts.regular,

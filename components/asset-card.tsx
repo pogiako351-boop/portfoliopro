@@ -11,12 +11,6 @@ interface AssetCardProps {
   onPress: () => void;
 }
 
-const CATEGORY_COLORS: Record<string, string> = {
-  Art: "#6B4C9A",
-  "Real Estate": "#2D6A4F",
-  Collectibles: "#8B5E3C",
-};
-
 export function AssetCard({ asset, width, onPress }: AssetCardProps) {
   const imageHeight = width * 1.25;
 
@@ -56,20 +50,19 @@ export function AssetCard({ asset, width, onPress }: AssetCardProps) {
               paddingVertical: 3,
               borderRadius: 4,
               borderCurve: "continuous",
-              backgroundColor:
-                CATEGORY_COLORS[asset.category] || Colors.surfaceElevated,
+              backgroundColor: "#3D2C1A",
             }}
           >
             <Text
               style={{
                 fontFamily: Fonts.medium,
                 fontSize: 10,
-                color: Colors.ivory,
+                color: Colors.gold,
                 letterSpacing: 0.5,
                 textTransform: "uppercase",
               }}
             >
-              {asset.category}
+              {asset.material} · {asset.diameter}
             </Text>
           </View>
 
@@ -86,17 +79,17 @@ export function AssetCard({ asset, width, onPress }: AssetCardProps) {
             {asset.title}
           </Text>
 
-          {/* View CTA */}
+          {/* Market Value */}
           <Text
             style={{
               fontFamily: Fonts.medium,
-              fontSize: 11,
+              fontSize: 12,
               color: Colors.gold,
-              letterSpacing: 0.5,
+              letterSpacing: 0.3,
               marginTop: 2,
             }}
           >
-            View
+            {asset.marketPrice}
           </Text>
         </View>
       </View>
