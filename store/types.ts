@@ -1,29 +1,18 @@
 /**
- * Base entity types for the Vault app store.
+ * Base entity types for the Vault multi-asset portfolio platform.
  */
 
-export interface Preferences {}
-
-export type AssetCategory = "Art" | "Real Estate" | "Collectibles";
+export type AssetCategory = "Timepiece" | "Hypercar" | "Real Estate";
 
 export interface Asset {
   id: string;
   title: string;
   category: AssetCategory;
   imageUrl: string;
-  estimatedValue: string;
-  retailPrice: string;
-  marketPrice: string;
+  msrp: number;
+  marketValue: number;
   description: string;
-  provenance: string;
-  year: number;
   isFeatured: boolean;
-  // Watch-specific specs
-  reference: string;
-  material: string;
-  diameter: string;
-  movement: string;
-  condition: string;
 }
 
 export interface Inquiry {
@@ -32,3 +21,5 @@ export interface Inquiry {
   submittedAt: number;
   status: "pending" | "logged";
 }
+
+export interface Preferences {}

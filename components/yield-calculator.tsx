@@ -2,65 +2,109 @@ import { useState, useMemo } from "react";
 import { View, Text, Pressable, Switch } from "react-native";
 import { Colors } from "@/constants/Colors";
 import { Fonts } from "@/constants/Typography";
+import { formatCurrency } from "@/utils/currency";
+import type { AssetCategory } from "@/store/types";
 
-type ProvenanceModifier =
-  | "unworn-double-boxed"
-  | "factory-sealed-tiffany"
-  | "single-owner-box-papers";
+type ProvenanceModifier = "baseline" | "premium" | "deduction";
 
 interface YieldCalculatorProps {
-  retailPrice: string;
-  marketPrice: string;
+  msrp: number;
+  marketValue: number;
+  category: AssetCategory;
 }
 
-const PROVENANCE_OPTIONS: {
+interface ProvenanceOption {
   key: ProvenanceModifier;
   label: string;
   sublabel: string;
   multiplier: number;
-}[] = [
-  {
-    key: "unworn-double-boxed",
-    label: "Unworn / Double Boxed",
-    sublabel: "Baseline",
-    multiplier: 1.0,
-  },
-  {
-    key: "factory-sealed-tiffany",
-    label: "Factory Sealed / Tiffany Stamped",
-    sublabel: "+25% Premium",
-    multiplier: 1.25,
-  },
-  {
-    key: "single-owner-box-papers",
-    label: "Single-Owner / Box & Papers",
-    sublabel: "−5% Deduction",
-    multiplier: 0.95,
-  },
-];
-
-function parsePrice(price: string): number {
-  return Number(price.replace(/[^0-9.]/g, ""));
 }
 
-function formatCurrency(value: number): string {
-  return "$" + value.toLocaleString("en-US", { maximumFractionDigits: 0 });
+function getProvenanceOptions(category: AssetCategory): ProvenanceOption[] {
+  switch (category) {
+    case "Timepiece":
+      return [
+        {
+          key: "baseline",
+          label: "Unworn / Double Boxed",
+          sublabel: "Baseline",
+          multiplier: 1.0,
+        },
+        {
+          key: "premium",
+          label: "Factory Sealed / Tiffany Stamped",
+          sublabel: "+25% Premium",
+          multiplier: 1.25,
+        },
+        {
+          key: "deduction",
+          label: "Single-Owner / Box & Papers",
+          sublabel: "−5% Deduction",
+          multiplier: 0.95,
+        },
+      ];
+    case "Hypercar":
+      return [
+        {
+          key: "baseline",
+          label: "Verified Provenance / Clean Title",
+          sublabel: "Baseline",
+          multiplier: 1.0,
+        },
+        {
+          key: "premium",
+          label: "Factory Spec / Zero Miles Delivery",
+          sublabel: "+25% Premium",
+          multiplier: 1.25,
+        },
+        {
+          key: "deduction",
+          label: "Single-Owner / Full Service History",
+          sublabel: "−5% Deduction",
+          multiplier: 0.95,
+        },
+      ];
+    case "Real Estate":
+      return [
+        {
+          key: "baseline",
+          label: "Freehold Title / No Encumbrance",
+          sublabel: "Baseline",
+          multiplier: 1.0,
+        },
+        {
+          key: "premium",
+          label: "Turnkey / Fully Furnished & Permitted",
+          sublabel: "+25% Premium",
+          multiplier: 1.25,
+        },
+        {
+          key: "deduction",
+          label: "Leasehold / Subject to Tenancy",
+          sublabel: "−5% Deduction",
+          multiplier: 0.95,
+        },
+      ];
+  }
 }
 
 export function YieldCalculator({
-  retailPrice,
-  marketPrice,
+  msrp,
+  marketValue,
+  category,
 }: YieldCalculatorProps) {
   const [selectedModifier, setSelectedModifier] =
-    useState<ProvenanceModifier>("unworn-double-boxed");
+    useState<ProvenanceModifier>("baseline");
   const [wholesaleEnabled, setWholesaleEnabled] = useState(false);
 
-  const msrp = useMemo(() => parsePrice(retailPrice), [retailPrice]);
-  const baseMarket = useMemo(() => parsePrice(marketPrice), [marketPrice]);
+  const provenanceOptions = useMemo(
+    () => getProvenanceOptions(category),
+    [category]
+  );
 
   const calculations = useMemo(() => {
-    const option = PROVENANCE_OPTIONS.find((o) => o.key === selectedModifier)!;
-    let adjustedMarket = baseMarket * option.multiplier;
+    const option = provenanceOptions.find((o) => o.key === selectedModifier)!;
+    let adjustedMarket = marketValue * option.multiplier;
 
     if (wholesaleEnabled) {
       adjustedMarket = adjustedMarket * 0.88; // 12% cut
@@ -74,7 +118,7 @@ export function YieldCalculator({
       spread,
       isPrimeAlpha,
     };
-  }, [baseMarket, msrp, selectedModifier, wholesaleEnabled]);
+  }, [marketValue, msrp, selectedModifier, wholesaleEnabled, provenanceOptions]);
 
   return (
     <View style={{ marginBottom: 24 }}>
@@ -292,11 +336,15 @@ export function YieldCalculator({
               marginBottom: 12,
             }}
           >
-            Provenance & Condition
+            {category === "Timepiece"
+              ? "Provenance & Condition"
+              : category === "Hypercar"
+                ? "Title & Provenance"
+                : "Title & Encumbrance"}
           </Text>
 
           <View style={{ gap: 8 }}>
-            {PROVENANCE_OPTIONS.map((option) => {
+            {provenanceOptions.map((option) => {
               const isSelected = selectedModifier === option.key;
               return (
                 <Pressable

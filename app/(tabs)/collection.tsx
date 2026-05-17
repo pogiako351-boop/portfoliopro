@@ -1,5 +1,5 @@
-import { View, Text, ScrollView, Pressable, useWindowDimensions } from "react-native";
-import { useState } from "react";
+import { useState, useMemo } from "react";
+import { View, Text, ScrollView, useWindowDimensions } from "react-native";
 import { useRouter } from "expo-router";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { Colors } from "@/constants/Colors";
@@ -7,26 +7,19 @@ import { Fonts } from "@/constants/Typography";
 import { useAppStore } from "@/store/useAppStore";
 import { AssetCard } from "@/components/asset-card";
 import { InquiryButton } from "@/components/inquiry-button";
-
-type FilterTab = "All" | "Steel" | "Gold" | "Unworn";
-
-const TABS: FilterTab[] = ["All", "Steel", "Gold", "Unworn"];
+import { CategoryPills, FilterOption } from "@/components/category-pills";
 
 export default function CollectionScreen() {
   const insets = useSafeAreaInsets();
   const router = useRouter();
   const { width } = useWindowDimensions();
   const assets = useAppStore((s) => s.assets);
-  const [activeFilter, setActiveFilter] = useState<FilterTab>("All");
+  const [activeFilter, setActiveFilter] = useState<FilterOption>("All");
 
-  const filteredAssets =
-    activeFilter === "All"
-      ? assets
-      : activeFilter === "Steel"
-        ? assets.filter((a) => a.material.includes("Steel"))
-        : activeFilter === "Gold"
-          ? assets.filter((a) => a.material.includes("Gold"))
-          : assets.filter((a) => a.condition === "Unworn");
+  const filteredAssets = useMemo(() => {
+    if (activeFilter === "All") return assets;
+    return assets.filter((a) => a.category === activeFilter);
+  }, [assets, activeFilter]);
 
   const cardWidth = (width - 48 - 12) / 2;
 
@@ -60,7 +53,7 @@ export default function CollectionScreen() {
               letterSpacing: 0.3,
             }}
           >
-            Curated Luxury Timepieces
+            Multi-Asset Portfolio Platform
           </Text>
           <View
             style={{
@@ -73,46 +66,13 @@ export default function CollectionScreen() {
           />
         </View>
 
-        {/* Filter Tabs */}
-        <ScrollView
-          horizontal
-          showsHorizontalScrollIndicator={false}
-          style={{ flexGrow: 0 }}
-          contentContainerStyle={{
-            paddingHorizontal: 20,
-            gap: 8,
-            marginBottom: 20,
-          }}
-        >
-          {TABS.map((tab) => (
-            <Pressable
-              key={tab}
-              onPress={() => setActiveFilter(tab)}
-              style={{
-                paddingHorizontal: 16,
-                paddingVertical: 8,
-                borderRadius: 20,
-                borderCurve: "continuous",
-                backgroundColor:
-                  activeFilter === tab ? Colors.gold : Colors.surface,
-                borderWidth: 1,
-                borderColor:
-                  activeFilter === tab ? Colors.gold : Colors.borderSubtle,
-              }}
-            >
-              <Text
-                style={{
-                  fontFamily: Fonts.medium,
-                  fontSize: 13,
-                  color: activeFilter === tab ? Colors.obsidian : Colors.cream,
-                  letterSpacing: 0.3,
-                }}
-              >
-                {tab}
-              </Text>
-            </Pressable>
-          ))}
-        </ScrollView>
+        {/* Filter Pills */}
+        <View style={{ marginBottom: 20 }}>
+          <CategoryPills
+            activeFilter={activeFilter}
+            onFilterChange={setActiveFilter}
+          />
+        </View>
 
         {/* Asset Grid */}
         <View
@@ -149,7 +109,7 @@ export default function CollectionScreen() {
                 color: Colors.muted,
               }}
             >
-              No timepieces match this filter
+              No assets match this filter
             </Text>
           </View>
         )}

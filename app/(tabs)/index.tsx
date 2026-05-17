@@ -1,3 +1,4 @@
+import { useState, useMemo } from "react";
 import { View, Text, ScrollView, useWindowDimensions } from "react-native";
 import { useRouter } from "expo-router";
 import { Colors } from "@/constants/Colors";
@@ -6,13 +7,23 @@ import { useAppStore } from "@/store/useAppStore";
 import { HeroCarousel } from "@/components/hero-carousel";
 import { AssetCard } from "@/components/asset-card";
 import { InquiryButton } from "@/components/inquiry-button";
+import { CategoryPills, FilterOption } from "@/components/category-pills";
 
 export default function HomeScreen() {
   const router = useRouter();
   const { width } = useWindowDimensions();
   const assets = useAppStore((s) => s.assets);
-  const featuredAssets = assets.filter((a) => a.isFeatured);
-  const collectionAssets = assets;
+  const [activeFilter, setActiveFilter] = useState<FilterOption>("All");
+
+  const featuredAssets = useMemo(
+    () => assets.filter((a) => a.isFeatured),
+    [assets]
+  );
+
+  const filteredAssets = useMemo(() => {
+    if (activeFilter === "All") return assets;
+    return assets.filter((a) => a.category === activeFilter);
+  }, [assets, activeFilter]);
 
   const cardWidth = (width - 48 - 12) / 2;
 
@@ -28,8 +39,16 @@ export default function HomeScreen() {
         <HeroCarousel assets={featuredAssets} />
 
         {/* Collection Section */}
-        <View style={{ paddingHorizontal: 20, marginTop: 28 }}>
-          <View style={{ flexDirection: "row", alignItems: "center", gap: 12 }}>
+        <View style={{ marginTop: 28 }}>
+          <View
+            style={{
+              paddingHorizontal: 20,
+              flexDirection: "row",
+              alignItems: "center",
+              gap: 12,
+              marginBottom: 18,
+            }}
+          >
             <Text
               style={{
                 fontFamily: Fonts.serifSemiBold,
@@ -38,7 +57,7 @@ export default function HomeScreen() {
                 letterSpacing: 0.5,
               }}
             >
-              The Collection
+              The Portfolio
             </Text>
             <View
               style={{
@@ -50,16 +69,24 @@ export default function HomeScreen() {
             />
           </View>
 
+          {/* Category Filter Pills */}
+          <View style={{ marginBottom: 20 }}>
+            <CategoryPills
+              activeFilter={activeFilter}
+              onFilterChange={setActiveFilter}
+            />
+          </View>
+
           {/* Asset Grid */}
           <View
             style={{
               flexDirection: "row",
               flexWrap: "wrap",
               gap: 12,
-              marginTop: 20,
+              paddingHorizontal: 20,
             }}
           >
-            {collectionAssets.map((asset) => (
+            {filteredAssets.map((asset) => (
               <AssetCard
                 key={asset.id}
                 asset={asset}
@@ -68,6 +95,27 @@ export default function HomeScreen() {
               />
             ))}
           </View>
+
+          {/* Empty state */}
+          {filteredAssets.length === 0 && (
+            <View
+              style={{
+                alignItems: "center",
+                justifyContent: "center",
+                paddingVertical: 60,
+              }}
+            >
+              <Text
+                style={{
+                  fontFamily: Fonts.serifMedium,
+                  fontSize: 18,
+                  color: Colors.muted,
+                }}
+              >
+                No assets in this category
+              </Text>
+            </View>
+          )}
         </View>
       </ScrollView>
 

@@ -32,7 +32,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: "Home",
+          title: "Portfolio",
           tabBarIcon: ({ color, size }) => (
             <Ionicons name="diamond-outline" size={size - 2} color={color} />
           ),
