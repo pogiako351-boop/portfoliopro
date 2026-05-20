@@ -1,0 +1,20 @@
+{
+  "name": "Savings Calculator UK",
+  "short_name": "SavingsCalc",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192.png/2563eb/ffffff",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/512.png/2563eb/ffffff",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
