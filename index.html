@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savings Calculator UK - Learn & Compare</title>
+  <meta name="description" content="Calculate savings interest and compare UK bank rates. Learn how AER and compound interest work.">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#2563eb">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; color: #1e293b; background: #f8fafc; }
+    header { background: #2563eb; color: white; padding: 2rem 1rem; text-align: center; }
+    main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+    .card { background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 1.5rem; }
+    h1, h2 { margin-bottom: 1rem; }
+    label { display: block; margin: 1rem 0 0.5rem; font-weight: 600; }
+    input { width: 100%; padding: 0.75rem; border: 2px solid #e2e8f0; border-radius: 8px; font-size: 1rem; }
+    button { background: #2563eb; color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 8px; font-size: 1rem; margin-top: 1rem; cursor: pointer; }
+    button:hover { background: #1d4ed8; }
+    .result { background: #eff6ff; padding: 1rem; border-radius: 8px; margin-top: 1rem; font-weight: 600; }
+    footer { text-align: center; padding: 2rem 1rem; color: #64748b; font-size: 0.875rem; }
+    a { color: #2563eb; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Savings Calculator UK</h1>
+    <p>Learn how interest works. Compare real rates. Make smarter decisions.</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>How Compound Interest Works</h2>
+      <p><strong>AER</strong> means Annual Equivalent Rate. It shows what you’d earn in a year if interest was compounded.</p>
+      <p>Example: £1,000 at 4% AER for 1 year = £1,040. Leave it for 5 years and it becomes £1,217.</p>
+      <p><em>Educational only. Not financial advice. Verify rates on provider sites before applying.</em></p>
+    </div>
+
+    <div class="card">
+      <h2>Savings Calculator</h2>
+      <label>Initial Deposit (£)</label>
+      <input type="number" id="deposit" value="1000" min="0">
+      
+      <label>Annual Interest Rate (%)</label>
+      <input type="number" id="rate" value="4" step="0.1" min="0">
+      
+      <label>Years</label>
+      <input type="number" id="years" value="5" min="1">
+      
+      <button onclick="calculate()">Calculate</button>
+      
+      <div id="result" class="result" style="display:none;"></div>
+    </div>
+
+    <div class="card">
+      <h2>Legal</h2>
+      <p>This site is for educational purposes only. Rates change frequently. Always verify on the bank’s official website.</p>
+      <p><small>Last updated: Oct 4, 2026</small></p>
+    </div>
+  </main>
+
+  <footer>
+    <p><a href="#">Privacy</a> | <a href="#">Disclaimer</a> | <a href="#">Contact</a></p>
+    <p>© 2026 Savings Calculator UK</p>
+  </footer>
+
+  <script>
+    function calculate() {
+      const p = parseFloat(document.getElementById('deposit').value);
+      const r = parseFloat(document.getElementById('rate').value) / 100;
+      const t = parseFloat(document.getElementById('years').value);
+      const amount = p * Math.pow(1 + r, t);
+      const interest = amount - p;
+      
+      document.getElementById('result').style.display = 'block';
+      document.getElementById('result').innerHTML = 
+        `After ${t} years you’ll have <strong>£${amount.toFixed(2)}</strong><br>
+         That’s <strong>£${interest.toFixed(2)}</strong> in interest`;
+    }
+    
+    // Register service worker for PWA
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
+</body>
+</html>
